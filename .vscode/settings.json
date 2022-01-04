@@ -1,0 +1,11 @@
+{
+    "indentRainbow.colorOnWhiteSpaceOnly": true,
+    "indentRainbow.includedLanguages": [],
+    "indentRainbow.excludedLanguages": ["plaintext"],
+    "indentRainbow.updateDelay": 100,
+    "indentRainbow.errorColor": "rgba(128,32,32,0.6)",
+    "indentRainbow.ignoreLinePatterns" : [
+      "/[ \t]* [*]/g", // lines begining with <whitespace><space>*
+      "/[ \t]+[/]{2}/g" // lines begininning with <whitespace>//
+    ]
+}
